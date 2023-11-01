@@ -2,7 +2,7 @@ version: 0.0
 os: ubuntu
 files:
   - source: /
-    destination: /home/ec2-user/node-app
+    destination: /home/ec2-user/NodeApp2
 hooks:
   ApplicationStop:
     - location: scripts/application_stop.sh
